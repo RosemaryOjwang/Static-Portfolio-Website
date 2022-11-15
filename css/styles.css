@@ -1,6 +1,6 @@
 .navbar{
   width: 100vw;
-  background-color: #000000;
+  background-image: radial-gradient(#3944BC, #0492C2, #52B2BF);
 }
 .nav{
   margin-left: 35%;
@@ -8,9 +8,104 @@
 #logo{
   margin-right: 60%;
   margin-left: -150%;
-  color: #FFC0CB;
-  
+  color: #FFA500;  
 }
-
- 
+.nav-link{
+  color: #FFA500;
+}
+.redLine{
+  background-color: #FF0000;
+}
+.introduction{
+  background-image: radial-gradient(#3944BC, #0492C2, #52B2BF);
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.greetings{
+grid-column: 1/2;
+}
+.photo{
+grid-column: 2/3;
+}
+.pushDown{
+  margin-left: 10%;
+  margin-top: 15%;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+a:hover{
+  text-decoration: none;
+}
+button{
+  background-color: #FFA500;
+  width: 180px;
+  height: 50px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+button:hover{
+  background-color: #FFFFFF;
+}
+#contact{
+  height: 100vh;
+}
+#location{
+  margin-top: 40px;
+}
+#myJob{
+  margin-top: 40px;
+}
+#myName{
   
+  font-size: 2.8em;
+}
+@keyframes upAndDown{
+  0%{
+    bottom: 50px;;
+  }
+  50%{
+    bottom: 150px;
+  }
+  100%{
+    bottom: 50px;
+  }
+}
+.codingPhoto{
+  animation-duration: 7s;
+  animation-name: upAndDown;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+  width: 30%;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  /*left: 0;
+  bottom: 0;*/
+}
+#photoPosition{
+  margin-top: 20%;
+}
+#resizeEmoji{
+  animation-duration: 0.3s;
+  animation-name: shake;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  width: 50px;
+  height: auto;
+}
+@keyframes shake{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(60deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
