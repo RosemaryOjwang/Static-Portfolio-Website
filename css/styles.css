@@ -84,8 +84,6 @@ button:hover{
   height: auto;
   border-radius: 25px;
   position: absolute;
-  /*left: 0;
-  bottom: 0;*/
 }
 #photoPosition{
   margin-top: 20%;
@@ -108,4 +106,7 @@ button:hover{
   100%{
     transform: rotate(0deg);
   }
+}
+#contact{
+  text-align: center;
 }
