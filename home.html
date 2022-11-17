@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <title>Home</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
-    <script src="js/scripts.js"></script>    
-  </head>
-  <body>
-      <div class="navbar">
-        <ul class="nav">
-          <li class="nav-item">
-            <div class="nav-link" id="logo"><code><</code>Rosemary-Ojwang<code>/></code></div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./home.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">RESUME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#works" >WORKS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html" >CONTACT</a>
-          </li>
-        </ul><hr class="redLine"><hr class="redLine"><hr class="redLine">
+
+<head>
+  <title>Home</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul class="nav">
+      <li class="nav-item">
+        <div class="nav-link" id="logo"><code><</code>Rosemary-Ojwang<code>/></code></div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="./home.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resume">RESUME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#works">WORKS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">CONTACT</a>
+      </li>
+    </ul>
+    <hr class="redLine">
+    <hr class="redLine">
+    <hr class="redLine">
+  </div>
+  <div class="introduction">
+    <div class="greetings">
+      <div class="pushDown">
+        <h1 id="myName">Hi, I'm Rosemary Ojwang <span><img id="resizeEmoji" src=IMG/greetingsEmoji.png></span></h1>
+        <h3 id="myJob">Web Developer</h3>
+        <h3 id="location">From Kenya</h3>
+        <button class="changeColor"><a href=#contact>CONTACT ME</a></button>
       </div>
-      <div class="introduction">
-        <div class="greetings">
-          <div class="pushDown">
-          <h1 id="myName">Hi, I'm Rosemary Ojwang <span><img id="resizeEmoji" src=IMG/greetingsEmoji.png></span></h1>
-          <h3 id="myJob">Web Developer</h3>
-          <h3 id="location">From Kenya</h3>
-          <button class="changeColor"><a href=#contact>CONTACT ME</a></button>
-          </div>
-        </div>
-        <div class="photo">
-          <div id="photoPosition">
-            <img class="codingPhoto" src="IMG/coding.jpg" alt="laptop photo">
-          </div>
-        </div>
+    </div>
+    <div class="photo">
+      <div id="photoPosition">
+        <img class="codingPhoto" src="IMG/coding.jpg" alt="laptop photo">
       </div>
-      <div id="contact">
-        <h1 id="contact">Contact</h1>
-      </div>
-  </body>
+    </div>
+  </div>
+  <div id="resume">
+    <h1>My Resume</h1>
+    <div id="education"></div>
+    <div id="work"></div>
+    </div>
+  </div>
+  <div id="contact">
+    <h1 id="contactHead">Contact</h1>
+    <div id="email">
+      <img class="resizePhoto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
+        alt="Email Icon">
+        <h5 id="contactHead">Email</h5>
+        <p id="contactHead">rosemaryojwang26@gmail.com</p>
+    </div>
+    <div id="socialMedia"><img class="resizePhoto" src="https://cdn-icons-png.flaticon.com/512/1968/1968666.png"
+        alt="social media icon">
+        <h5 id="contactHead">Social Media</h5>
+        <a href="https://github.com/RosemaryOjwang?tab=repositories">
+        <img class="resizePhotoSmaller"src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github link">
+      </a>
+    </div>
+    <div id="phone">
+      <img class="resizePhoto" src="https://thumbs.dreamstime.com/b/call-icon-cdr-171462700.jpg" alt="phone icon">
+      <h5 id="contactHead">Phone</h5>
+      <p id="contactHead">(254) 723388724</p>
+    </div>
+  </div>
+</body>
+
 </html>
