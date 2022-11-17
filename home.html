@@ -30,17 +30,18 @@
         <a class="nav-link" href="./contact.html">CONTACT</a>
       </li>
     </ul>
-    <hr class="redLine">
-    <hr class="redLine">
-    <hr class="redLine">
   </div>
-  <div class="introduction">
+  <div id="introduction">
     <div class="greetings">
       <div class="pushDown">
         <h1 id="myName">Hi, I'm Rosemary Ojwang <span><img id="resizeEmoji" src=IMG/greetingsEmoji.png></span></h1>
         <h3 id="myJob">Web Developer</h3>
         <h3 id="location">From Kenya</h3>
         <button class="changeColor"><a href=#contact>CONTACT ME</a></button>
+        <div id="message1" class="hidden"></div>
+        <div>
+          <p id="message" class="hidden">Thank you for visiting my website</p>
+        </div>
       </div>
     </div>
     <div class="photo">
@@ -49,25 +50,62 @@
       </div>
     </div>
   </div>
-  <div id="resume">
-    <h1>My Resume</h1>
-    <div id="education"></div>
-    <div id="work"></div>
+  <div id="about">
+    <div id="aboutMe">
+      <h1 class="centralize">About</h1><hr>
+      <h4 class="centralize">Rosemary Atieno Ojwang</h4>
+      <p class="centralize">I am a UX/UI and front-end web developer from Kenya. I am passionate about new technologies
+        and creative coding, and I am always curious to
+        learn more!</p>
+      <h5 class="centralize">SKILLS</h5><hr>
+      <div class="centeredList">
+        <ul>
+          <li>Front-end languages
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Dart with Flutter</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>Backend languages
+            <ul>
+            <li>Python</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
+  <div id="resume">
+    <h1 class="centralize">My Resume</h1>
+    <div id="education">
+      <h5>EDUCATION</h5>
+      <h6><strong>Maseno University</strong></h6>
+      <p><em>Bachelor of Science (Basic Sciences) with IT</em></p>
+    </div>
+    <div id="work">
+      <h5>WORK</h5>
+
+    </div>
+  </div>
   </div>
   <div id="contact">
     <h1 id="contactHead">Contact</h1>
     <div id="email">
       <img class="resizePhoto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
         alt="Email Icon">
-        <h5 id="contactHead">Email</h5>
-        <p id="contactHead">rosemaryojwang26@gmail.com</p>
+      <h5 id="contactHead">Email</h5>
+      <p id="contactHead">rosemaryojwang26@gmail.com</p>
     </div>
     <div id="socialMedia"><img class="resizePhoto" src="https://cdn-icons-png.flaticon.com/512/1968/1968666.png"
         alt="social media icon">
-        <h5 id="contactHead">Social Media</h5>
-        <a href="https://github.com/RosemaryOjwang?tab=repositories">
-        <img class="resizePhotoSmaller"src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github link">
+      <h5 id="contactHead">Social Media</h5>
+      <a href="https://github.com/RosemaryOjwang?tab=repositories">
+        <img class="resizePhotoSmaller" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          alt="github link">
       </a>
     </div>
     <div id="phone">
@@ -75,6 +113,10 @@
       <h5 id="contactHead">Phone</h5>
       <p id="contactHead">(254) 723388724</p>
     </div>
+  </div>
+  <div id="home">
+    <a href="#introduction"><img class="resizePhoto" src="https://cdn-icons-png.flaticon.com/512/25/25637.png"
+        alt="home icon">To Top</a>
   </div>
 </body>
 
