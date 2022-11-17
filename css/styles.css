@@ -107,6 +107,87 @@ button:hover{
     transform: rotate(0deg);
   }
 }
-#contact{
+#contactHead{
   text-align: center;
+  color: #FFA500;
+}
+#contact{
+  background-image: radial-gradient(#3944BC, #0492C2, #52B2BF);
+  height: 100vh;
+  width: 100vw;
+}
+#email{
+float: left;
+width: 300px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 1px 1px 5px 5px #3944BC;
+margin-right: 30px;
+margin-top: 15%;
+margin-bottom: 25%;
+margin-left: 18%;
+}
+#email:hover{
+  width: 330px;
+  height: 220px;
+}
+#socialMedia{
+float: left;
+width: 300px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 1px 1px 5px 5px #3944BC;
+margin-top: 15%;
+margin-bottom: 25%;
+margin-right: 30px;
+}
+#socialMedia:hover{
+  width: 330px;
+  height: 220px;
+}
+#phone{
+float: left;
+width: 300px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 1px 1px 5px 5px #3944BC;
+margin-top: 15%;
+margin-bottom: 25%;
+}
+#phone:hover{
+  width: 330px;
+  height: 220px;
+}
+.resizePhoto{
+  width: 25%;
+  height: 25%;
+  margin-top: 40px;
+  margin-left: 35%;
+}
+.resizePhotoSmaller{
+  width:15%;
+  height: 15%;
+  margin-left: 35%;
+  border-radius: 50%;
+}
+#resume{
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(#3944BC, #0492C2, #52B2BF);
+}
+#education{
+  float: left;
+  width: 35%;
+  height: 40%;
+  box-shadow: 1px 1px 5px 5px #3944BC;
+  border-radius: 15px;
+  margin-left: 12%;
+  margin-right: 3%;
+}
+#work{
+  float: left;
+  width: 35%;
+  height: 40%;
+  box-shadow: 1px 1px 5px 5px #3944BC;
+  border-radius: 15px;
 }
