@@ -1,4 +1,6 @@
 .navbar{
+  position: fixed;
+  top: 0;
   width: 100vw;
   background-image: radial-gradient(#3944BC, #0492C2, #52B2BF);
 }
@@ -16,7 +18,7 @@
 .redLine{
   background-color: #FF0000;
 }
-.introduction{
+#introduction{
   background-image: radial-gradient(#3944BC, #0492C2, #52B2BF);
   height: 100vh;
   width: 100vw;
@@ -39,6 +41,7 @@ a{
 }
 a:hover{
   text-decoration: none;
+  color: #000000;
 }
 button{
   background-color: #FFA500;
@@ -56,6 +59,32 @@ button:hover{
 }
 #location{
   margin-top: 40px;
+}
+.hidden{
+  display: none;
+}
+#message1{
+  width: 80px;
+  position: absolute;
+  height: 30px;
+  border-radius: 45%;
+  background-color: #FFA500;
+  margin-left: 330px;
+  margin-top: -95px;
+  box-shadow: 0 0 15px 15px #3944BC;
+}
+#message{
+  float: left;
+  position: absolute;
+  width: 320px;
+  height: 40px;
+  background-color: #FFA500;
+  border-radius: 45%;
+  box-shadow: 1px 1px 15px 5px #000000;
+  margin-left: 200px;
+  margin-top: -50px;
+  text-align: center;
+  color: #3944BC;
 }
 #myJob{
   margin-top: 40px;
@@ -115,6 +144,7 @@ button:hover{
   background-image: radial-gradient(#3944BC, #0492C2, #52B2BF);
   height: 100vh;
   width: 100vw;
+  margin-top: 70px;
 }
 #email{
 float: left;
@@ -183,6 +213,8 @@ margin-bottom: 25%;
   border-radius: 15px;
   margin-left: 12%;
   margin-right: 3%;
+  text-align: center;
+  margin-top: 15%;
 }
 #work{
   float: left;
@@ -190,4 +222,43 @@ margin-bottom: 25%;
   height: 40%;
   box-shadow: 1px 1px 5px 5px #3944BC;
   border-radius: 15px;
+  text-align: center;
+  margin-top: 15%;
+}
+.centralize{
+  text-align: center;
+}
+p,h1,h5,h4,h6,ul{
+  color: #FFA500;
+  margin-top: 30px;
+}
+#home{
+  float: left;
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 150px;
+  height: 60px;
+  background-color: #FFA500;
+  border-radius: 50%;
+}
+#about{
+  width: 100vw;
+  height: 100vh;
+}
+#aboutInAbout{
+  margin-top: 10%;
+  text-align: center;
+}
+#aboutMe{
+  float: left;
+  width: 80vw;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 5px #FFA500;
+}
+.centeredList{
+  margin-left: 45%;
 }
