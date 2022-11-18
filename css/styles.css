@@ -262,3 +262,20 @@ p,h1,h5,h4,h6,ul,h3{
 .centeredList{
   margin-left: 45%;
 }
+footer{
+  background-color: #000000;
+  width: 100vw;
+  height: 300px;
+  color: #FFFFFF;
+}
+.footerText{
+  float: left;
+  margin-left: 80px;
+}
+.links{
+  float: left;
+  margin-left: 20px;
+}
+.links a:hover{
+  text-decoration: none;
+}
