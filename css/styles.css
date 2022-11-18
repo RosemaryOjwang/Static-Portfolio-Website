@@ -228,7 +228,7 @@ margin-bottom: 25%;
 .centralize{
   text-align: center;
 }
-p,h1,h5,h4,h6,ul{
+p,h1,h5,h4,h6,ul,h3{
   color: #FFA500;
   margin-top: 30px;
 }
