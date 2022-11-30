@@ -208,22 +208,22 @@ margin-bottom: 25%;
 #education{
   float: left;
   width: 35%;
-  height: 40%;
+  height: 60%;
   box-shadow: 1px 1px 5px 5px #3944BC;
   border-radius: 15px;
   margin-left: 12%;
   margin-right: 3%;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 4%;
 }
 #work{
   float: left;
   width: 35%;
-  height: 40%;
+  height: 60%;
   box-shadow: 1px 1px 5px 5px #3944BC;
   border-radius: 15px;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 4%;
 }
 .centralize{
   text-align: center;
