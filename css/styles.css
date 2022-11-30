@@ -230,7 +230,7 @@ margin-bottom: 25%;
 }
 p,h1,h5,h4,h6,ul,h3{
   color: #FFA500;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 #home{
   float: left;
@@ -253,9 +253,9 @@ p,h1,h5,h4,h6,ul,h3{
 #aboutMe{
   float: left;
   width: 80vw;
-  margin-top: 2%;
+  margin-top: 2.2%;
   margin-left: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   border-radius: 15px;
   box-shadow: 1px 1px 5px 5px #FFA500;
 }
