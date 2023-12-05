@@ -329,7 +329,9 @@ footer{
 }
 #contact_us > input {
   background-color: #3944BC;
+  border-radius: 15px;
 }
 #contact_us > textarea {
   background-color: #3944BC;
+  border-radius: 15px;
 }
