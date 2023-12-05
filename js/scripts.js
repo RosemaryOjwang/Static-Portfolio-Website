@@ -20,7 +20,7 @@ window.onload = function () {
     setTimeout(myNameDelay, 500);
     let myJob1 = document.getElementById("myJob1");
     function myJob1Delay() {
-        myJob1.innerText = "Front-end Web Developer";
+        myJob1.innerText = "Full Stack Web Developer";
     }
     setTimeout(myJob1Delay, 2000);
     let myJob2 = document.getElementById("myJob2");

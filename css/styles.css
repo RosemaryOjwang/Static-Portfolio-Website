@@ -229,6 +229,12 @@ margin-bottom: 25%;
   text-align: center;
   margin-top: 4%;
 }
+#work > p {
+  line-height: 0%;
+}
+#education > p {
+  line-height: 0%;
+}
 #myWork{
   width: 100vw;
   height: 100vh;
@@ -317,4 +323,13 @@ footer{
   text-decoration: none;
   color: #FFA500;
   font-size: 1.3em;
+}
+#contact_us {
+  margin: 10px;
+}
+#contact_us > input {
+  background-color: #3944BC;
+}
+#contact_us > textarea {
+  background-color: #3944BC;
 }

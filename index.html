@@ -3,7 +3,7 @@
 
 <head>
   <title>Home</title>
-  <link rel="icon" href="IMG/favicon.jpg" type="image/jpg">
+  <link rel="icon" href="img/favicon.png" type="image/png">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" type="text/css" rel="stylesheet">
   <script src="js/scripts.js"></script>
@@ -48,7 +48,7 @@
       <h1 class="centralize">About</h1>
       <hr>
       <h4 class="centralize">Rosemary Atieno Ojwang</h4>
-      <p class="centralize">I am a UX/UI and front-end web developer from Kenya. I am passionate about new technologies
+      <p class="centralize">I am a full stack web developer from Kenya. I am passionate about new technologies
         and creative coding, and I am always curious to
         learn more!</p>
       <h5 class="centralize">SKILLS</h5>
@@ -60,7 +60,6 @@
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
-              <li>Dart with Flutter</li>
             </ul>
           </li>
         </ul>
@@ -68,7 +67,6 @@
           <li>Backend languages
             <ul>
               <li>Python</li>
-              <li>Mysql</li>
             </ul>
           </li>
         </ul>
@@ -81,7 +79,7 @@
     <div id="education">
       <h5>EDUCATION & PROFESSIONAL COURSES</h5>
       <h6>Power Learn Project</h6>
-      <p><em>Junior Developer</em></p>
+      <p><em>Junior Software Developer</em></p>
       <h6>Generation Programme Kenya</h6>
       <p><em>Digital Customer Service</em></p>
       <h6><strong>Maseno University</strong></h6>
@@ -91,11 +89,13 @@
     <div id="work">
       <h5>WORK EXPERIENCE</h5>
       <h6>Ipsos Kenya</h6>
-      <p><em>Research Assistant</em></p>
-      <h6>CallTronix Kenya Limited</h6>
-      <p><em>Customer Service Agent</em></p>
+      <p><em>Research Assistant-Top 100 Mid-Sized companies survey 2018</em></p>
+      <h6>Independent Electoral and Boundaries Commission-Ruaraka</h6>
+      <p><em>Presiding Officer-2017 Fresh Presidential Election</em></p>  
+      <p><em>Deputy Presiding Officer-2017 General Election</em></p>
       <h6>Equity Bank Kenya Ltd</h6>
       <p><em>Relationship officer-Operations</em></p>
+      
     </div>
   </div>
   <div id="myWork">
@@ -108,8 +108,8 @@
       <a href="https://github.com/RosemaryOjwang/JAVA-HOUSE">
         <img src="IMG/ScreenshotJAVA-HOUSE.png" alt="Java House">
       </a>
-      <a href="https://github.com/RosemaryOjwang/asteriks_pattern">
-        <img src="IMG/ScreenshotAsteriksPattern.png" alt="Asteriks Pattern">
+      <a href="https://github.com/RosemaryOjwang/House-Letting-Agency">
+        <img src="IMG/House-Letting-Agency.png" alt="House Letting Agency">
       </a>
       <button><a href="https://github.com/RosemaryOjwang?tab=repositories">Clich here to view more of my work</a></button>
     </div>
@@ -120,10 +120,13 @@
   <div id="contact">
     <h1 id="contactHead">Contact</h1>
     <div id="email">
-      <img class="resizePhoto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
-        alt="Email Icon">
-      <h5 id="contactHead">Email</h5>
-      <p id="contactHead"><a href="mailto:rosemaryojwang26@gmail.com">Click to email me</a></p>
+      <form id="contact_us" action="cgi-bin/contact_post.cgi" method="POST"> 
+        Name: <input type="text" name="name"><br>
+        Email: <input type="email" name="email"><br>
+        Message: <textarea rows="2" cols="30" name="message">Type your message here.</textarea><br>
+        <input type="submit" name="submit" placeholder="SUBMIT">
+      </form>
+      
     </div>
     <div id="socialMedia"><img class="resizePhoto" src="https://cdn-icons-png.flaticon.com/512/1968/1968666.png"
         alt="social media icon">
