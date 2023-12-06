@@ -1,4 +1,4 @@
-# STATIC PORTFOLIO WEBSITE
+# Static Portfolio Website
 
 **By Rosemary Ojwang**
 
