@@ -15,7 +15,7 @@
 ## Set-up/Installation Requirements
 1. Clone this repository to your desktop.
 2. Navigate to the top level of the directory.
-3. Open [index.html](index.html) in your browser.
+3. Open index.html in your browser.
 
 ![Home_Page](IMG/home_pagescreenshot.png)
 
